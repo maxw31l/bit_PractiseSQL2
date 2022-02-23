@@ -1,0 +1,68 @@
+===Database Movie_rent
+
+== Table structure for table client
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(255)|No|
+|**Movie_id**|int(255)|No|
+|Name|varchar(255)|No|
+|Last_name|varchar(255)|No|
+|Contact_nr|varchar(255)|No|
+|Email|varchar(255)|No|
+|Days_rent|int(255)|No|
+|Rent_location|varchar(255)|No|
+|Return_location|varchar(255)|No|
+|Date_rent|date|No|
+== Dumping data for table client
+
+== Table structure for table Client_movie
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Id**//|int(255)|No|
+|**Client_id**|int(255)|No|
+|**Movie_Id**|int(255)|No|
+== Dumping data for table Client_movie
+
+== Table structure for table Employee
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(255)|No|
+|**City_id**|int(255)|No|
+|Password|varchar(255)|No|
+|Name|varchar(255)|No|
+|Last_name|varchar(255)|No|
+|Email|varchar(255)|No|
+== Dumping data for table Employee
+
+== Table structure for table Movie
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(255)|No|
+|Name|varchar(255)|No|
+|Quantity|int(255)|No|
+|Rent_price|float|No|
+|Discount|float|No|
+|Final_price|float|No|
+== Dumping data for table Movie
+
+== Table structure for table Office
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Id**//|int(255)|No|
+|**Employee_id**|int(255)|No|
+|**Client_id**|int(255)|No|
+|Address|varchar(255)|No|
+|Email|varchar(255)|No|
+|Contact_Nr|varchar(255)|No|
+== Dumping data for table Office
+
